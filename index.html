@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio de Alan</title>
+    <style>
+        /* Reset de estilo */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 48%;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .project a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .projects {
+                flex-direction: column;
+            }
+
+            .project {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Olá, sou Alan</h1>
+        <p>Desenvolvedor Web | Criador de soluções digitais</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <div>
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis. Tenho experiência com front-end e back-end, trabalhando com tecnologias como <strong>HTML, CSS, JavaScript</strong>, além de frameworks como <strong>React</strong> e <strong>Node.js</strong>.</p>
+            <p>Eu me esforço para aprender novas habilidades e aplicar as melhores práticas de desenvolvimento em todos os meus projetos. Quando não estou programando, gosto de explorar novas ideias e melhorar minhas habilidades criativas.</p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Projeto 1: Portfólio Pessoal</h3>
+                <p>Este é o meu portfólio atual. A ideia é mostrar as minhas habilidades e projetos anteriores de uma maneira simples e responsiva. A página é construída com HTML, CSS e JavaScript.</p>
+                <a href="https://www.exemplo.com" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="project">
+                <h3>Projeto 2: To-Do List</h3>
+                <p>Um aplicativo simples para gerenciar tarefas, feito com React. Ele armazena os dados localmente e permite adicionar, editar e excluir tarefas facilmente.</p>
+                <a href="https://www.exemplo.com" target="_blank">Ver Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Você pode entrar em contato comigo através das seguintes formas:</p>
+        <ul>
+            <li><a href="mailto:seunome@exemplo.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/seunome" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/seunome" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alan - Todos os direitos reservados</p>
+        <p><a href="#sobre">Voltar ao topo</a></p>
+    </footer>
+
+</body>
+</html>
+
